@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  <title>Charla - Video Conferencing</title>
+  <script src="RTCMultiConnection/hark.js"></script>
+  <script src="RTCMultiConnection/RTCMultiConnection.js"></script>
+  <script src="RTCMultiConnection/adapter.js"></script>
+  <script src="RTCMultiConnection/socket.io.js"></script>
+  <script  src="charla.js"></script>
+  <link rel="stylesheet" href="charla.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+  <section id="no-conference">
+	<h1>Charla</h1>
+	<h2>Video Conferencing</h2>
+        <input type="text" placeholder="Enter room ID" id="room-id" value="" autocorrect=off autocomplete=off size=20>
+        <button id="open-or-join"><i class="fas fa-comments"></i></button>
+        <div style="position:absolute;width:100%;bottom:20px;text-align:center;"><a href="https://github.com/rajgoel/charla">Charla - Video conferencing <i class="fab fa-github"></i></a> powered by <a href="https://github.com/muaz-khan/RTCMultiConnection">RTCMultiConnection <i class="fab fa-github"></i></a></div>
+  </section>
+  <section id="video-conference">
+        <div style="position: absolute;z-index:100;top:0;right:20px;font-size:32pt;"><a id="exit" href="#"><i class="fas fa-window-close"></i></a></div>
+	<div id="video-container">
+		<div class="video dummy"><img src="nosignal.gif"></img></div>
+	</div>
+   </section>
+</body>
+</html>

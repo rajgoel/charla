@@ -1,0 +1,65 @@
+html, body, section {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+body {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  background-color: #111;
+  color: #ccc;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+
+ h1 {
+  margin: 0;
+  font-size: 130px;
+  font-weight: 300;
+}
+
+ a {
+  color: gray;
+  text-decoration: none;
+}
+
+#video-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;   
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  overflow:hidden;
+}
+
+.video.speaking {
+  border: 3px solid green;
+}
+
+.video > video {
+object-fit: cover;
+}
+
+.video > img {
+object-fit: fill;
+  height: 100%;
+  width: 100%;
+  align-self: center;
+}
+
+.hide {
+   display: none;
+}
+
