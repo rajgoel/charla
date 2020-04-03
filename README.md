@@ -10,7 +10,7 @@ to configure the socket server. Availability and stability are not guaranteed. P
 
 # Usage
 
-Usage is minimalistic and the only thing required is a room id. This can be provided in the text field or by a URL hash. Participants can be invited by sharing the URL with room id. Charla automatically scales the participant videos to fit the screen. A double click on a vide can be used to toggle fullscreen.
+Usage is minimalistic and the only thing required is a room id. This can be provided in the text field or by providing a URL hash. Participants can be invited by sharing the URL with room id. Charla automatically scales the participant videos to fit the screen. A double click on a video can be used to toggle fullscreen.
 
 # Limitations
 Charla inherits all performance features and limitations of the [video conferncing demo of RTCMultiConnection](https://github.com/muaz-khan/RTCMultiConnection/blob/master/demos/video-conferencing.html) and may introduce new features and mistakes by my own changes.
